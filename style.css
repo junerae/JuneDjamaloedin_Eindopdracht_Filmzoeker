@@ -1,0 +1,40 @@
+body { 
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#btn-container {
+    padding: 20px;
+}
+
+.radio-btn {
+    text-align: center;
+    margin-left: 30px;
+}
+
+
+#movieList {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10fr;
+}
+
+#movielist .single-movie {
+    grid-column-start: 1;
+}
+
+img {
+    height: 250px;
+}
+

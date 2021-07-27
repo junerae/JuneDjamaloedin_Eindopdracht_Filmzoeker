@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Eindopdracht - Filmzoeker</title>
+    <script defer src="movies.js"></script>
+    <script defer src="script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Eindopdracht June Djamaloedin - Filmzoeker</h1>
+        <nav>
+            <div id="btn-container">
+                <input class="radio-btn" id="nieuwste-btn" type="radio" value="nieuw" checked="checked"
+                    name="film-filter">
+                <label class="container">Nieuwste films</label>
+
+                <input class="radio-btn" id="avengers-btn" type="radio" value="avengers" name="film-filter">
+                <label class="container">Avengers</label>
+
+                <input class="radio-btn" id="xmen-btn" type="radio" value="xmen" name="film-filter">
+                <label class="container">X-Men </label>
+
+                <input class="radio-btn" id="princess-btn" type="radio" value="princess" name="film-filter">
+                <label class="container">Princess</label>
+
+                <input class="radio-btn" id="batman-btn" type="radio" value="batman" name="film-filter">
+                <label class="container">Batman</label>
+
+                <input class="radio-btn" id="all-btn" type="radio" value="all" name="film-filter">
+                <label class="container">Alle</label>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="movie-container">
+            <ul id="movieList">
+
+            </ul>
+        </div>
+
+    </main>
+    <footer></footer>
+</body>
+
+</html>
